@@ -40,11 +40,11 @@ It prints the values every 30 seconds. Adjust the sleep duration in the code if 
 
 ## Example Screen Captures
 
-- Normal: `img/temp-norm.png` — adjust level between 95°F and 115°F (35°C to 46°C)
+- Normal: `img/img2` — adjust level between 95°F and 115°F (35°C to 46°C)
 
   ![Normal temperature](img/img2.png)
 
-- Over-temp: `img/temp-over.png`
+- Over-temp: `img/img1.png`
 
   ![Over temperature](img/img1.png)
 
