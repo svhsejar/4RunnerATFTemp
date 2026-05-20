@@ -13,7 +13,12 @@ This script reads automatic transmission fluid (ATF) temperature using a cheap E
 - ELM327-compatible USB serial adapter or Bluetooth dongle
 
 ## Setup
-1. Install dependencies:
+1. Install Python (choose based on your operating system): 
+   - Windows: [Python for Windows](https://www.python.org/downloads/windows/)
+   - Mac: Python is pre-installed, but you can install the latest version from [Python for Mac](https://www.python.org/downloads/macos/)
+   - Linux: Use your package manager (e.g., `sudo apt install python3` on Debian/Ubuntu)
+ 
+2. Install dependencies:
    ```bash
    pip install -r requirements.txt
    ```
