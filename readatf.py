@@ -60,7 +60,7 @@ def main():
             elif atf <= 45:
                 print("Remove the overflow plug and adjust ATF level")
             else:
-                print("ATF temperature high; switch off and wait for cooldown before adjusting overflow")
+                print("ATF temperature high; switch off ignition and wait for cooldown before adjusting overflow")
         else:
             print("ATF: no data")
 
