@@ -43,7 +43,7 @@ It prints the values every 30 seconds. Adjust the sleep duration in the code if 
 
 ## Example Screen Captures
 
-- Normal:  adjust ATF level between 95°F and 115°F (35°C to 46°C)
+- Normal:  adjust ATF level when temp is between 104°F and 113°F (40°C to 45°C)
 
   ![Normal temperature](img/img1.png)
 

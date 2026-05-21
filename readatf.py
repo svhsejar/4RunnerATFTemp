@@ -55,7 +55,7 @@ def main():
         if atf is not None:
             atf_f = c_to_f(atf)
             print(f"ATF Temp: {atf} °C / {atf_f:.1f} °F")
-            if atf < 36:
+            if atf < 40:
                 print("ATF cold, wait for warm-up")
             elif atf <= 45:
                 print("Remove the overflow plug and adjust ATF level")
