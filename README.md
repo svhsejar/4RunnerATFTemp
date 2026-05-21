@@ -1,6 +1,6 @@
 # Toyota 4Runner ATF Temperature Reader
 
-This script reads automatic transmission fluid (ATF) temperature using a cheap ELM327 OBD-II dongle on a Toyota 4Runner (5th Gen). It is useful when performing a transmission fluid flush to monitor the ATF temperature.
+This script reads automatic transmission fluid (ATF) temperature using a cheap [ELM327](https://en.wikipedia.org/wiki/ELM327) OBD-II dongle on a Toyota 4Runner (5th Gen). It is useful when performing a transmission fluid flush to monitor the ATF temperature.
 
 > Verified using Toyota ATF debug mode by shorting pins 4 and 13, confirming readings match the ATF debug (ATF Temperature Detection) mode indication.
 
