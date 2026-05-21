@@ -4,7 +4,7 @@ import re
 # Check 221627
 # For ATF
 # USB serial port examples: Windows e.g. COM3, Linux e.g. /dev/ttyUSB0 or /dev/tty.usbserial-1460
-PORT = "/dev/tty.usbserial-14610"   # change this depending on your Operating System and device
+PORT = "/dev/tty.usbserial-14310"   # change this depending on your Operating System and device
 BAUD = 38400
 
 def send(ser, cmd, delay=0.3):
@@ -51,7 +51,7 @@ def main():
 
         atf = parse_atf(atf_resp)
         cool = parse_coolant(cool_resp)
-
+        print (f"Time: {time.strftime('%Y-%m-%d %H:%M:%S')}")
         if atf is not None:
             atf_f = c_to_f(atf)
             print(f"ATF Temp: {atf} °C / {atf_f:.1f} °F")

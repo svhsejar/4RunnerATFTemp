@@ -42,11 +42,11 @@ It prints the values every 30 seconds. Adjust the sleep duration in the code if 
 
 - Normal:  adjust ATF level between 95°F and 115°F (35°C to 46°C)
 
-  ![Normal temperature](img/img2.png)
+  ![Normal temperature](img/img1.png)
 
 - Over-temp: Wait for ATF to cool down
 
-  ![Over temperature](img/img1.png)
+  ![Over temperature](img/img2.png)
 
 ## Notes
 - Make sure the adapter is connected to the vehicle and the ignition is on.
